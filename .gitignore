@@ -1,0 +1,16 @@
+# Arquivos temporários
+*~
+
+# Arquivos de compilação
+*.o
+*.out
+
+# Arquivos de ambiente específicos
+.env
+
+# Arquivos de log
+log/
+
+# Diretórios gerados
+**/node_modules/
+dist/

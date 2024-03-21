@@ -81,7 +81,7 @@ async function downloadPage(url, outputPath) {
                   const cssResponse = await axios.get(cssUrl);
                   const cssText = cssResponse.data;
                   const fontUrls = cssText.match(/url\(([^)]+)\)/g);
-                  if (fontUrls) {
+                  if (fontUrls) { 
                       fontUrls.forEach((fontUrl) => {
                           const urlMatch = fontUrl.match(/url\(["']?(.+?)["']?\)/);
                           if (urlMatch && urlMatch[1]) {
@@ -112,6 +112,6 @@ async function downloadPage(url, outputPath) {
 }
 
 // Exemplo de uso:
-const url = 'https://kerassentials.colibrim.com/';
+const url = 'https://gutgo-com.com/';
 const outputPath = './downloaded_page';
 downloadPage(url, outputPath);

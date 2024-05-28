@@ -112,6 +112,6 @@ async function downloadPage(url, outputPath) {
 }
 
 // Exemplo de uso:
-const url = 'https://gutgo-com.com/';
+const url = 'https://tupi-tea.colibrim.com/';
 const outputPath = './downloaded_page';
 downloadPage(url, outputPath);
